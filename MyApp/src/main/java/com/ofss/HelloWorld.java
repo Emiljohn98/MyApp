@@ -7,6 +7,8 @@ public class HelloWorld {
 		System.out.println("This is my project in eclipse");
 		Employee emp = new Employee("Emil");
 		System.out.println(emp);
+		Customer c = new Customer("Emil","Bangalore");
+		System.out.println(c);
 	}
 
 }
